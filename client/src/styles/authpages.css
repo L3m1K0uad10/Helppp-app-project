@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* html */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* body */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* form container */
+.logo-text,
+.auth-label,
+.directive, 
+.auth-status {
+    color: white;
+}
+
+.span-logo-text {
+    color: orange;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.auth-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #054a86;
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: .5rem;
+    border-style: solid;
+}
+
+.input:hover {
+    border-color: orange;
+}
+
+.logo-text {
+    position: fixed;
+    top: 20%;
+}
+
+.auth-label {
+    position: fixed;
+    top: 20%;
+    padding-top: 40px;
+}
+
+.directive {
+    padding: 10px 0px;
+    position: fixed;
+    top: 20%;
+    padding-top: 80px;
+}
+
+.error-message {
+    position: fixed;
+    top: 35%;
+    color: orange;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.auth-form-button {
+    padding: 10px 0px;
+    width: 80%;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: .5rem;
+}
+
+.auth-form-button:hover {
+    background-color: #054a86;
+    color: orange;
+}
+
+.auth-form-button,
+.input {
+    position: relative;
+    top: 8%;
+}
+
+.auth-status {
+    position: fixed;
+    top: 78%;
+}
+
+.auth-links {
+    color: orange;
+}
+
+.auth-links:hover {
+    color: #ffa600a5;
+}
+
+/* auth-illustration-container */ 
+.auth-illustration {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #054a86;
+    border-left: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.illustration-label {
+    text-align: center;
+}
