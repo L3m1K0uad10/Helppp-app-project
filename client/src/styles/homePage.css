@@ -364,195 +364,78 @@ main {
 }
 
 
+/* QUERY MEDIA */
 
-/* main {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+@media screen and (max-width: 1000px) {
+    .you-have-Q-label {
+        padding-left: 20px;
+    }
 }
 
-a {
-    cursor: pointer;
+@media screen and (max-width: 990px) {
+    .insight,
+    li {
+        font-size: 14px;
+    }
 }
 
-.top-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 8%;
+@media screen and (max-width: 843px) {
+    main {
+        flex-direction: column;
+    }
+    
+    .aside-nav-bar {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        width: 100%;
+        height: 40%;
+        display: grid;
+        grid-template-columns: .25fr .75fr 1fr;
+        grid-template-rows: .25fr .25fr 1.5fr;
+    }
+
+    .logo-text-home {
+        padding-left: 20px;
+    }
+
+    .icons {
+        font-size: 12px;
+    }
+
+    .you-have-Q-label,
+    .aside-form {
+        grid-column: span 3;
+    }
+
+    .you-have-Q-label {
+        padding-left: 20px;
+        font-size: 16px;
+        padding-top: 25px;
+        padding-bottom: -10px;
+    }
+
+    .aside-form {
+        height: 60%;
+        margin-left: 20px;
+    }
+
+    .aside-form textarea {
+        height: 100%;
+    }
+
+    .aside-form-button {
+        width: 100px;
+    }
+
+    .aside-nav-icon-middle-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        grid-column: span 2;
+    }
+
+    .main-box-container {
+        width: 100%;
+        height: 60%;
+    }
 }
-
-.aside-nav-bar {
-    width: 5%;
-    height: 100%;
-    background-color: #177ddd5c;
-    padding: 35px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 1.5px 1.5px 1.5px #808080c9;
-    transition: all 0.35s ease-in-out;
-}
-
-.user-display-question {
-    width: 100%;
-    background-color: none;
-    height: 80%;
-    padding: 20px;
-    overflow-y: auto;
-}
-
-.user-question-card {
-    text-align: left;
-    color: black;
-    padding: 10px;
-    border-radius: .5rem;
-}
-
-
-.user-question-card-content,
-.user-question-card-date {
-    font-size: 12px;
-}
-
-.user-question-card:hover {
-    background-color: #177ddd;
-}
-
-.logo-text-home span {
-    color: #177ddd;
-}
-
-
-.main-box-container {
-    width: 95%;
-    padding: 25px;
-}
-
-.profile {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff6600;
-}
-
-/* .add-icon {
-    margin-top: -450px;
-} */
-
-/* .icons {
-    font-size: 20px;
-}
-
-.add-icon:hover {
-    background-color: #dad7d7c0;
-    padding: 5px 7px;
-    border-radius: 50%;
-}
-
-.bottom-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    height: 70%;
-}
-
-.main-box-header-2 {
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-
-.main-box-header-1 {
-    padding-top: 60px;
-}
-
-.question-display-container,
-.ask-question-container {
-    margin-top: 40px;
-}
-
-.question-display-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    width: 49%;
-    height: 90%;
-    overflow-y: auto;
-}
-
-.help, 
-.ask {
-    color: #ff6600;
-}
-
-.question-card {
-    text-align: left;
-    background-color: #177ddd5c;
-    margin-right: 30px;
-    color: black;
-    padding: 10px;
-    border-radius: .5rem;
-}
-
-.question-card {
-    overflow: scroll;
-}
-
-.question-card-date {
-    margin-top: 10px;
-}
-
-.question-card-author {
-    font-weight: bolder;
-}
-
-.question-card:hover {
-    background-color: #177ddd;
-}
-
-.ask-question-container {
-    width: 49%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-textarea {
-    resize: none;
-    font-size: 16px;
-    margin-top: 20px;
-    border-color: #177ddd5c;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-}
-
-button {
-    padding: 11px 35px;
-    background-color: #177ddd5c;
-    color: black;
-    border-radius: .5rem;
-    cursor: pointer;
-    border: none;
-}
-
-button:hover {
-    background-color: #177ddd;
-    color: black;
-    border-color: #177ddd;
-}
-
-.points {
-    font-weight: lighter;
-    margin-left: 30px;
-    font-size: 14px;
-}  */
-
