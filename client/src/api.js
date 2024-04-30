@@ -1,7 +1,7 @@
 import axios from "axios"
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "/choreo-apis/helppp/backend/rest-api-be2/v1.0";
+const apiUrl = "https://14d9ce7d-48ae-4030-8df3-4048f15e10cf-dev.e1-us-cdp-2.choreoapis.dev/helppp/backend/rest-api-be2/v1.0";
 
 
 const api = axios.create({
